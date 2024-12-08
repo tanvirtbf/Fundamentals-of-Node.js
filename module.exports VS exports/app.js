@@ -42,7 +42,10 @@ const math = require('./math.js')
 // } // This is valid karon module.exports koreii new object banano hoise . 
 
 
-
+// Final note: 
+// 1. user object is equvalent to module object
+// 2. user.address object is equvalent to module.exports object
+// 3. let address = user.address is equvalent to let exports = module.exports
 
 
 
