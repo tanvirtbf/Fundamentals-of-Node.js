@@ -1,10 +1,4 @@
-
-function sum(...nums){
-  return nums.reduce((curr,acc) => curr + acc)
-}
-
-function product(...nums){
-  return nums.reduce((curr,acc) => curr * acc)
-}
+const sum = require('./sum.js')
+const product = require('./product.js')
 
 console.log(sum(1,2,3,4,5))
