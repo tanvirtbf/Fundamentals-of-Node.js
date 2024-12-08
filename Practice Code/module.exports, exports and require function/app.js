@@ -30,3 +30,6 @@ console.log(exportsHello)
 
 const returnArray = require('./returnArray')
 console.log(returnArray)
+
+const [a,b,c,d] = require('./returnStringAsArray')
+console.log(a,b,c,d) // H e l l
