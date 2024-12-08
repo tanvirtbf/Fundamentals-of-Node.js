@@ -24,7 +24,12 @@
 // console.log(sum(1,2,3,4,5))
 // console.log(product(1,2,3,4))
 
-const {sum, product} = require('./math.js')
+// const {sum, product} = require('./math.js')
 
-console.log(sum(1,2,3,4,5)) // 15
-console.log(product(1,2,3,4)) // 24
+// console.log(sum(1,2,3,4,5)) // 15
+// console.log(product(1,2,3,4)) // 24
+
+// Important Notes********
+// module.exports always sudhu ekta dataii return korte pare . multiple data return korte pare na . only ektaii object, or only ektaii array, or only ektaii string or ektaii number etc sudhu ektaii data return korte pare . karon ??????
+// karon holo require ekta function and module.exports er value require function return kore . jehetu require ekta function taii amra sobai jani ekta function only ektaii value return korte pare . tai module.exports only ekta data return korte pare
+
