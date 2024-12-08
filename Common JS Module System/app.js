@@ -33,3 +33,10 @@
 // module.exports always sudhu ekta dataii return korte pare . multiple data return korte pare na . only ektaii object, or only ektaii array, or only ektaii string or ektaii number etc sudhu ektaii data return korte pare . karon ??????
 // karon holo require ekta function and module.exports er value require function return kore . jehetu require ekta function taii amra sobai jani ekta function only ektaii value return korte pare . tai module.exports only ekta data return korte pare
 
+// Important Notes*****
+// require function asynchronously kaj kore thake. jokhon require function er vitore kono path deya hoy tokhon sei path e giye file er sob code execute korte thake. jotokkhon na sei file er sob code execute na hobe totokkhon require function jei line e ache sei line eii compiler suspend hoye thakbe, samne jaite parbe na . oi file er sob code run houyar por then require function execute complete kore next line theke run korbe compiler
+
+// Empty object return 
+const myFile = require('./emptyReturn.js')
+console.log(myFile) // {}
+// karon module.exports by default empty object hobe thake . tai jodi emptyReturn.js file theke jodi module.exports e kono data pass kora na hoy tahole by default ai file require function ke empty object return kore. 
