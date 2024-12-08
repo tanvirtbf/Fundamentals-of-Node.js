@@ -27,3 +27,6 @@ console.log(returnBool)
 
 const exportsHello = require('./exports')
 console.log(exportsHello)
+
+const returnArray = require('./returnArray')
+console.log(returnArray)
