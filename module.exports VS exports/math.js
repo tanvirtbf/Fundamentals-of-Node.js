@@ -9,5 +9,10 @@ function product(...nums){
 console.log(module.exports === exports) // true
 // ekhane jodio true ashce kintu tao onk difference ase 
 
-module.exports.sum = sum
-module.exports.product = product
+// module.exports.sum = sum
+// module.exports.product = product
+
+// Example 1 er Example: 
+const send = module.exports
+send.sum = sum
+send.product = product
