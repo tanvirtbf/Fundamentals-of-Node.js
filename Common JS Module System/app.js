@@ -37,6 +37,26 @@
 // require function asynchronously kaj kore thake. jokhon require function er vitore kono path deya hoy tokhon sei path e giye file er sob code execute korte thake. jotokkhon na sei file er sob code execute na hobe totokkhon require function jei line e ache sei line eii compiler suspend hoye thakbe, samne jaite parbe na . oi file er sob code run houyar por then require function execute complete kore next line theke run korbe compiler
 
 // Empty object return 
-const myFile = require('./emptyReturn.js')
-console.log(myFile) // {}
+// const myFile = require('./emptyReturn.js')
+// console.log(myFile) // {}
 // karon module.exports by default empty object hobe thake . tai jodi emptyReturn.js file theke jodi module.exports e kono data pass kora na hoy tahole by default ai file require function ke empty object return kore. 
+
+
+// Important Notes******
+// jehetu module.exports ekta object tai amra module.exports.sum=sum or module.exports.product = product evabe amra multiple object multiple line e add kore require function e return korte pari . jemon...
+// module.exports.sum = sum
+// module.exports.product = product
+// ekhane require function sum and product 2 ta function ee return hoye jabe . amra object destructaring kore sum and product ke ber korte pari . jemon const { sum, product } = require('./math.js')
+// Example: 
+// const {sum, product} = require('./math.js')
+// console.log(sum(1,2,3,4,5))
+// console.log(product(1,2,3,4))
+
+
+
+
+
+
+
+
+
