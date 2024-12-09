@@ -12,7 +12,10 @@
 // Answer : amra jani javascript e function er vitore var diyeo kono variable declare korle seta local scope e thake . tar mane window object er vitor pauya jay na globally . jehetu node js sob file er code gula ekta IIFE wrapper function er moddhe rakhe tai var diyeo declare kora variable gula local scope e thake
 // kintu var let const kichu diye variable declare na korle seta global scope e jay
 
+// Node js er erokom vabe sob file er code function er vitor wrap korar karon ki ? 
+// karon holo jate kono variable global scope e na jay
 
+// dhori amar main file app.js and math.js and hello.js 2 ta file ami app.js er moddhe import korsi, othoba bola jay require korsi. akhn app.js er moddhe jemon wrapper function thakbe temni math.js and hello.js er moddheo wrapper function thakbe. app.js er wrapper function and math.js er wrapper function same na. tader argument gulao same na . prottekta file e alada alada wrapper function sob code gula ke wrap kore thake. eta test korar jonno amra app.js and math.js 2 ta file er moddhei console.log(__filename, __dirname) kore dekhi . dekhben 2 tar value same na . tar mane holo 2 ta file er wrapper function er argument er value same na . 
 
 
 
