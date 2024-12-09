@@ -4,6 +4,8 @@ const math = require('./math')
 const hello = require('./hello')
 console.log(math)
 
+a = 11
+
 // Important Notes : 
 // jokhon app.js theke module object access kora hoy tokhon sei module object and math.js file er module object same na . prottekta file er module object alada alada. 
 
@@ -53,6 +55,7 @@ console.log(math)
 // debugging korar por jekhane code aisha theme jay sei file er module object terminal e dekha jay. jemon app.js er moddhe math.js and hello.js 2 ta module require kora hoise . akhn math.js er moddhe kono debugging kora hoile jokhon app.js run kora hobe tokhon math.js e aisha code thaimma jabe . tokhon terminal e ashle module object ta actually math.js er hobe . and sei module object er parent module holo app.js
 
 
-
+// Important Notes : 
+// jodi var let const use diye kono variable declare kori tahole seta local scope e store hobe and jodi var let const diye variable declare na kori tahole global scope e thake. 
 
 
