@@ -13,6 +13,8 @@ console.log(math)
 // 4. module.isPreloading
 // 5. module.loaded
 // 6. module.parent
+// 7. module.path
+// 8. module.paths
 
 // 1. module.children 
 // eta holo main file er moddhe koto gula file export kora hoise tar ekta hishab array er value akare pass hoy children array er moddhe. dhoren math.js file app.js er moddhe require function use kore import korsi tar mane children array er moddhe 1 ta value set hoise. sei ekta value index 0 diye access kora jay. sei index 0 te another ekta module object ase jeta only for math.js file. temni vabe jodi app.js e arekta file jar nam hello.js require kori tahole tar pore debugging dile dekha jay je children e 2 ta value ase. jar index 1 er moddhe hello.js file er module object store kora.
@@ -35,3 +37,22 @@ console.log(math)
 // jokhon pura file loading hoy na tokhon etar value false thake . jokhon file ta pura load hoye jay ba pura ta execute hoye jay tokhon true hoye jay. true hoile obossho seta gayeb hoye jay module object theke
 
 // 6. module.parent
+// jei main file theke existing file ke require kora hoise tar module object taii ekhane thake thake . etaii parent module. mone kori app.js er moddhe math.js require kora hoise .tahole math.js er parent module holo app.js. math.js er moddhe kothau debugging lagaiya then run korle dekha jay . app.js er parent module null hobe. karon app.js kono module ba file er children na
+
+
+// 7. module.path
+// pura directory er path thake ekhane
+
+// 8. module.paths
+// ekhane gele ekta array thake jar moddhe onk gula path thake . sei path gula holo ekdom root porjonto 1 step por por jaite jaite ekdom root porjonto chole jay. sob gular last e node_modules thake . karon node_modules theke kichu external module import kore node js server. akhn ami jodi node_modules file ta project folder e na rekhe sei path gular jekono ektar moddhe rakhi tao amar project valo vabe run korbe . 
+
+
+// Important Note : prottekta module er ekta nijossho module object thake
+
+// Important Note ********
+// debugging korar por jekhane code aisha theme jay sei file er module object terminal e dekha jay. jemon app.js er moddhe math.js and hello.js 2 ta module require kora hoise . akhn math.js er moddhe kono debugging kora hoile jokhon app.js run kora hobe tokhon math.js e aisha code thaimma jabe . tokhon terminal e ashle module object ta actually math.js er hobe . and sei module object er parent module holo app.js
+
+
+
+
+
