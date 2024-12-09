@@ -10,7 +10,7 @@
 // Important Note******
 // Question holo node js er moddhe kno var diye variable declare korleo local scope e variable add hoy ?? 
 // Answer : amra jani javascript e function er vitore var diyeo kono variable declare korle seta local scope e thake . tar mane window object er vitor pauya jay na globally . jehetu node js sob file er code gula ekta IIFE wrapper function er moddhe rakhe tai var diyeo declare kora variable gula local scope e thake
-
+// kintu var let const kichu diye variable declare na korle seta global scope e jay
 
 
 
