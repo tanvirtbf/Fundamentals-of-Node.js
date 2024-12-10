@@ -1,5 +1,5 @@
 
-console.log('Send : ', send)
-console.log('Hello World!')
+send.a = 5
+
 
 
