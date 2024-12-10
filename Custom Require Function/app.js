@@ -5,6 +5,10 @@ function loadModule(path){
   const fileContent = fs.readFileSync(path).toString()
   console.log(fileContent)
   
-  eval(fileContent)
+  (function(send){
+    eval(fileContent)
+
+  })({})
+
 }
 
